@@ -1,0 +1,60 @@
+body {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+}
+
+.card {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+input[type="password"], input[type="submit"] {
+    padding: 10px;
+    margin: 10px 0;
+}
+
+#submit-button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+#submit-button:hover {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #4CAF50;
+}
+
+.output-header {
+    font-size: 1.2em;
+    margin-top: 20px;
+}
+
+.output-subheader {
+    font-size: 1.1em;
+    margin-top: 10px;
+}
+
+.output-content {
+    margin-left: 10px;
+}
+
+#output {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 20px;
+}

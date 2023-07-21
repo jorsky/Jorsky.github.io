@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Password Strengthener</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <h1>Password Strengthener</h1>
+            <p>Enter the password you would like to make stronger *NOTE The Password suggestion is that A suggestion that CAN help with online security..</p>
+            <form id="userForm">
+                <input type="password" id="password" placeholder="Enter your password">
+                <input type="submit" value="Submit" id="submit-button">
+                <div class="show-password">
+                    <input type="checkbox" id="show-password-checkbox">
+                    <label for="show-password-checkbox">Show password</label>
+                </div>
+            </form>
+            <div id="output"></div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/zxcvbn@4.4.2/dist/zxcvbn.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
